@@ -39,15 +39,15 @@
 
 <body class="font-manrope">
     <header class="container mx-auto">
-        <div class="hero">
-            <div class="hero-content flex-col lg:flex-row">
+        <div class="mx-5 lg:mx-auto my-10 lg:my-auto">
+            <div class="flex justify-between items-center flex-col lg:flex-row lg:mx-10">
                 <div>
                     <h1 class="text-4xl lg:text-7xl font-bold">It's good<br />
                         tea time at The<br />
                         Tea House</h1>
                     <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste
                         Buds.</p>
-                    <button class="btn btn-primary">Explore More</button>
+                    <button class="btn bg-gradient-to-r from-[#FF7630] to-[#FF0F06] text-white">Explore More</button>
                 </div>
                 <div>
                     <img src="images/banner.png" class="max-w-1/2" />
@@ -151,7 +151,9 @@
                     of passages of Lorem Ipsum available, but the majority have suffered
                     alteration in some form, by injected humour, or randomised words which don't look even slightly
                     believable. </p>
-                <button class="btn btn-primary">Show All</button>
+                <button
+                    class="btn bg-white text-transparent bg-clip-text bg-gradient-to-r from-[#FF7630] to-[FF0F06]">Show
+                    All</button>
             </div>
             <!-- Review Container -->
             <div class="flex-1 relative mr-0">
@@ -243,14 +245,15 @@
     <!-- Main Section End -->
 
     <!-- Footer Start -->
-    <footer class="py-24  p-10 bg-base-200 text-base-content ">
-        <div class="flex justify-between lg:px-60 my-24">
-            <div>
+    <footer class="py-24  p-10 bg-base-200 text-base-content overflow-hidden">
+        <div class="flex flex-col lg:flex-row justify-center lg:justify-between lg:px-60 my-24">
+            <div class="mx-auto mb-5 lg:mb-auto lg:mx-0">
                 <img src="images/cup.png" alt="">
             </div>
-            <div class="flex items-center gap-8">
+            <div class="flex flex-col lg:flex-row items-center gap-8">
                 <h2 class="text-xl font-medium">Ready to get strated?</h2>
-                <button class="btn btn-primary text-xl font-bold">Get Started</button>
+                <button class="btn bg-gradient-to-r from-[#FF7630] to-[#FF0F06] text-white text-xl font-bold">Get
+                    Started</button>
             </div>
         </div>
         <div class="footer lg:px-60 text-center">
@@ -281,8 +284,11 @@
                         <span class="label-text">Enter your email address</span>
                     </label>
                     <div class="relative container">
-                        <input type="text" placeholder="username@site.com" class="bg-transparent border-b-2 border-black outline-none py-4 -ml-0 pr-40" />
-                        <button class="btn btn-primary absolute top-0 right-0 rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                        <input type="text" placeholder="username@site.com"
+                            class="bg-transparent border-b-2 border-black outline-none py-4 lg:-ml-0 lg:-ml-36 max-w-sm -ml-36" />
+                        <button
+                            class="btn btn-primary absolute top-0 lg:right-28 rounded-full bg-gradient-to-r from-[#FF7630] to-[#FF0F06] outline-none border-none"><i
+                                class="fa-solid fa-chevron-right"></i></button>
                     </div>
                 </div>
             </div>
