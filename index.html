@@ -23,7 +23,7 @@
             theme: {
                 extend: {
                     colors: {
-                        clifford: 'linear-gradient(270deg, #F00 0%, #FF8938 100%)',
+                        'DivGradient':' linear-gradient(270deg, #F00 0%, #FF8938 100%);'
                     }
                 }
             }
@@ -42,7 +42,7 @@
         <div class="hero">
             <div class="hero-content flex-col lg:flex-row">
                 <div>
-                    <h1 class="text-7xl font-bold">It's good<br />
+                    <h1 class="text-4xl lg:text-7xl font-bold">It's good<br />
                         tea time at The<br />
                         Tea House</h1>
                     <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste
@@ -50,7 +50,7 @@
                     <button class="btn btn-primary">Explore More</button>
                 </div>
                 <div>
-                    <img src="images/banner.png" class="max-w-sm" />
+                    <img src="images/banner.png" class="max-w-1/2" />
                     <!-- Rating Badge -->
                     <div class="-mt-16 flex items-center gap-3 drop-shadow-lg bg-white p-5 w-60">
                         <i class="fa-solid fa-star text-2xl text-amber-400"></i>
@@ -63,10 +63,10 @@
             </div>
         </div>
     </header>
-    <main class="container mx-auto">
+    <main class="md:container md:mx-auto">
         <!-- Future Section -->
-        <section class="text-center my-24">
-            <h2 class="text-5xl font-extrabold mb-5">Our Featured Products</h2>
+        <section class="text-center my-24 mx-10">
+            <h2 class="text-4xl lg:text-5xl font-extrabold mb-5">Our Featured Products</h2>
             <p class="text-base font-normal lg:max-w-3xl mx-auto mb-5">There are many variations of passages of Lorem
                 Ipsum
                 available, but the majority have suffered alteration
@@ -75,7 +75,7 @@
             <!-- Futured tea card container -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
                 <!-- Card -->
-                <div class="card bg-gradient-to-t from-[#F4F4F4] to-[#F4F4F4] shadow-xl py-8">
+                <div class="card bg-gradient-to-t from-[#F4F4F4] to-[#F4F4F4] py-8">
                     <figure><img src="images/tea-1.png" alt="Milk Tea" /></figure>
                     <div class="card-body text-center">
                         <h2 class="text-2xl font-extrabold">Milk Tea</h2>
@@ -85,7 +85,7 @@
                     </div>
                 </div>
                 <!-- Card -->
-                <div class="card bg-gradient-to-t from-[#F4F4F4] to-[#F4F4F4] shadow-xl py-8">
+                <div class="card bg-gradient-to-t from-[#F4F4F4] to-[#F4F4F4] py-8">
                     <figure><img src="images/tea-1.png" alt="Milk Tea" /></figure>
                     <div class="card-body text-center">
                         <h2 class="text-2xl font-extrabold">Milk Tea</h2>
@@ -95,7 +95,7 @@
                     </div>
                 </div>
                 <!-- Card -->
-                <div class="card bg-gradient-to-t from-[#F4F4F4] to-[#F4F4F4] shadow-xl py-8">
+                <div class="card bg-gradient-to-t from-[#F4F4F4] to-[#F4F4F4] py-8">
                     <figure><img src="images/tea-1.png" alt="Milk Tea" /></figure>
                     <div class="card-body text-center">
                         <h2 class="text-2xl font-extrabold">Milk Tea</h2>
@@ -105,7 +105,7 @@
                     </div>
                 </div>
                 <!-- Card -->
-                <div class="card bg-gradient-to-t from-[#F4F4F4] to-[#F4F4F4] shadow-xl py-8">
+                <div class="card bg-gradient-to-t from-[#F4F4F4] to-[#F4F4F4] py-8">
                     <figure><img src="images/tea-1.png" alt="Milk Tea" /></figure>
                     <div class="card-body text-center">
                         <h2 class="text-2xl font-extrabold">Milk Tea</h2>
@@ -117,13 +117,12 @@
             </div>
         </section>
         <!-- Great Tea Frshly Presented -->
-        <section class="my-24 flex flex-col lg:flex-row">
+        <section class="my-10 mx-10 lg:my-24 flex flex-col lg:flex-row gap-12">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 flex-1">
-                <div class="rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500 h-36"></div>
-                <div class="row-span-2"><img src="images/fresh-1.png" alt=""></div>
-                <div class="row-span-2"><img src="images/fresh-2.png" alt=""></div>
-                <div class="rounded-xl"></div>
-               
+                <div class="rounded-xl bg-gradient-to-r from-red-100 to-amber-100 h-36"></div>
+                <div class="row-span-2 bg-[#FCF6E9] flex justify-center items-center px-7 py-12"><img src="images/fresh-1.png" alt=""></div>
+                <div class="row-span-2 bg-[#EEF1EB] flex justify-center items-center px-7 py-12"><img src="images/fresh-2.png" alt=""></div>
+                <div class="rounded-xl bg-gradient-to-r from-[#D9D9D9] to-white h-36"></div>
             </div>
             <div class="space-y-5 flex-1">
                 <h2 class="text-5xl font-extrabold">Great Tea, Freshly<br /> Presented</h2>
@@ -138,6 +137,7 @@
                 <h4 class="text-xl font-extrabold">Premium Quality</h4>
                 <p class="text-base font-semibold">Premium Quality that makes tea more elegant and more durable when you
                     use it.</p>
+
             </div>
         </section>
     </main>
